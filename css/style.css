@@ -1,15 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap");
-
-@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&display=swap");
-
-* {
-  margin: 0;
-  border: 0;
-  padding: 0;
-  outline: 0;
-  box-sizing: content-box;
-}
-
 body {
   background-color: #fffbf8;
 }
@@ -43,10 +31,6 @@ a {
   left: 50%;
   transform: translate(-50%, -50%);
   height: 6em;
-
-  @media (max-width: 375px) {
-    display: none;
-  }
 }
 
 .nav-container {
@@ -104,18 +88,19 @@ a {
 
 .card-flex {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
 .card-graphic-design,
 .card-photography {
-  width: 25em;
   position: absolute;
   bottom: 0em;
   left: 50%;
   text-align: center;
   transform: translate(-50%, -2em);
+  width: 22em;
 }
 
 .card-image {
@@ -126,8 +111,8 @@ a {
 }
 
 .card-content {
-  width: 25em;
   padding: 0 1em;
+  width: 25.6em;
 }
 
 .card-title,
@@ -310,9 +295,16 @@ a {
 }
 
 @media (max-width: 795px) {
+  .header-container {
+    height: 20em;
+  }
+
+  .title {
+    padding-top: 0em;
+  }
+
   .card-container {
-    display: flex;
-    flex-direction: column;
+    grid-template-columns: repeat(1, 1fr);
   }
 
   .primary-card-container {
