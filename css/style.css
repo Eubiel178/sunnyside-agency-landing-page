@@ -307,9 +307,6 @@ a {
     grid-template-columns: repeat(1, 100%);
   }
 
-  .card {
-  }
-
   .primary-card-container {
     display: flex;
     flex-direction: column-reverse;
