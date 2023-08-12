@@ -1,7 +1,8 @@
 @media screen and (max-width: 790px) {
   .header-container {
-    height: 13cm;
+    height: 11cm;
     overflow: hidden;
+    font-size: 10px;
   }
 
   .arrow-icon {
@@ -14,11 +15,12 @@
   }
 
   .title {
-    top: 15%;
+    top: 20%;
   }
 
   .card-container {
     grid-template-columns: repeat(1, auto);
+    font-size: 12px;
   }
 
   .primary-card-container {
@@ -63,6 +65,10 @@
 
   .card-gallery-image {
     height: 10em;
+  }
+
+  .footer-container {
+    font-size: 10px;
   }
 }
 
