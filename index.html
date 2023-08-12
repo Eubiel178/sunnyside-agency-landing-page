@@ -4,9 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/breakpoints.css" />
     <link rel="stylesheet" href="./css/font.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
 
     <link
       rel="shortcut icon"
@@ -55,14 +56,18 @@
         </ul>
       </nav>
 
-      <h1 class="title">WE ARE CREATIVES</h1>
+      <h1 class="title">
+        WE ARE <span class="main-title-word-break">CREATIVES</span>
+      </h1>
     </header>
 
     <main>
       <section class="card-container primary-card-container">
         <div class="card card-flex">
           <div class="card-content">
-            <h2 class="card-title">Transform your brand</h2>
+            <h2 class="card-title">
+              Transform your <span class="text-word-break-line">brand</span>
+            </h2>
 
             <p class="card-text">
               We are a full-service creative agency specializing in helping
@@ -80,7 +85,7 @@
           </div>
         </div>
 
-        <div class="card">
+        <div class="card card-image-container">
           <picture>
             <source
               media="(min-width:375px)"
@@ -88,7 +93,6 @@
             />
 
             <img
-              class="card-image"
               src="./images/mobile/image-transform.jpg"
               alt="image of an egg"
             />
@@ -97,7 +101,7 @@
       </section>
 
       <section class="card-container">
-        <div class="card">
+        <div class="card card-image-container">
           <picture>
             <source
               media="(min-width:375px)"
@@ -105,7 +109,6 @@
             />
 
             <img
-              class="card-image"
               src="./images/mobile/image-stand-out.jpg"
               alt="image of a glass"
             />
@@ -114,7 +117,10 @@
 
         <div class="card card-flex">
           <div class="card-content">
-            <h2 class="card-title">Stand out to the right audience</h2>
+            <h2 class="card-title">
+              Stand out to the right
+              <span class="text-word-break-line">audience</span>
+            </h2>
 
             <p class="card-text">
               Using a collaborative formula of designers, researchers,
@@ -221,9 +227,9 @@
               brand’s success made it a satisfying and enjoyable experience.
             </p>
 
-            <p class="client-name">Thomas S. Chief</p>
+            <p class="client-name">Thomas S.</p>
 
-            <p class="client-profession">Operating Officer</p>
+            <p class="client-profession">Chief Operating Officer</p>
           </div>
 
           <div class="feedback-card">
@@ -248,57 +254,65 @@
       </section>
 
       <section class="card-gallery">
-        <picture>
-          <source
-            media="(min-width:375px)"
-            srcset="./images/desktop/image-gallery-milkbottles.jpg"
-          />
+        <div class="picture-item">
+          <picture>
+            <source
+              media="(min-width:375px)"
+              srcset="./images/desktop/image-gallery-milkbottles.jpg"
+            />
 
-          <img
-            class="card-gallery-image"
-            src="./images/mobile/image-gallery-milkbottles.jpg"
-            alt="milk bottle image"
-          />
-        </picture>
+            <img
+              class="card-gallery-image"
+              src="./images/mobile/image-gallery-milkbottles.jpg"
+              alt="milk bottle image"
+            />
+          </picture>
+        </div>
 
-        <picture>
-          <source
-            media="(min-width:375px)"
-            srcset="./images/desktop/image-gallery-orange.jpg"
-          />
+        <div class="picture-item">
+          <picture>
+            <source
+              media="(min-width:375px)"
+              srcset="./images/desktop/image-gallery-orange.jpg"
+            />
 
-          <img
-            class="card-gallery-image"
-            src="./images/mobile/image-gallery-orange.jpg"
-            alt="image of orange"
-          />
-        </picture>
+            <img
+              class="card-gallery-image"
+              src="./images/mobile/image-gallery-orange.jpg"
+              alt="image of orange"
+            />
+          </picture>
+        </div>
 
-        <picture>
-          <source
-            media="(min-width:375px)"
-            srcset="./images/desktop/image-gallery-cone.jpg"
-          />
+        <div class="picture-item">
+          <picture>
+            <source
+              media="(min-width:375px)"
+              srcset="./images/desktop/image-gallery-cone.jpg"
+            />
 
-          <img
-            class="card-gallery-image"
-            src="./images/mobile/image-gallery-cone.jpg"
-            alt="image of cone"
-          />
-        </picture>
+            <img
+              class="card-gallery-image"
+              src="./images/mobile/image-gallery-cone.jpg"
+              alt="image of cone"
+            />
+          </picture>
+        </div>
 
-        <picture>
-          <source
-            media="(min-width:375px)"
-            srcset="./images/desktop/image-gallery-sugar-cubes.jpg"
-          />
+        <div class="picture-item">
+          <picture>
+            <source
+              media="(min-width:375px)"
+              srcset="./images/desktop/image-gallery-sugar-cubes.jpg"
+            />
 
-          <img
-            class="card-gallery-image"
-            src="./images/mobile/image-gallery-sugar-cubes.jpg"
-            alt="image of sugar cubes"
-          />
-        </picture>
+            <img
+              class="card-gallery-image"
+              src="./images/mobile/image-gallery-sugar-cubes.jpg"
+              alt="image of sugar cubes"
+            />
+          </picture>
+        </div>
       </section>
     </main>
 
@@ -306,9 +320,17 @@
       <h2 class="footer-title">sunnyside</h2>
 
       <ul class="nav-footer">
-        <li class="nav-footer-item">About</li>
-        <li class="nav-footer-item">Services</li>
-        <li class="nav-footer-item">Projects</li>
+        <li class="nav-footer-item">
+          <a href="#" title="Navigation for About">About</a>
+        </li>
+
+        <li class="nav-footer-item">
+          <a href="#" title="Navigation for Services">Services</a>
+        </li>
+
+        <li class="nav-footer-item">
+          <a href="#" title="Navigation for Projects">Projects</a>
+        </li>
       </ul>
 
       <ul class="list-icon">

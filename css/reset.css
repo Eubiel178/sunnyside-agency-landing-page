@@ -5,3 +5,8 @@
   outline: 0;
   box-sizing: content-box;
 }
+
+ol,
+ul {
+  list-style: none;
+}
