@@ -10,3 +10,12 @@ ol,
 ul {
   list-style: none;
 }
+
+body {
+  background-color: #fffbf8;
+  height: 100vh;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}

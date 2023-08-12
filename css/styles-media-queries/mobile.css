@@ -1,18 +1,4 @@
-@media (max-width: 1020px) {
-  .feedback-list {
-    grid-template-columns: repeat(3, auto);
-    padding: 2cm 0.5cm 0.5cm;
-  }
-}
-
-@media (max-width: 870px) {
-  .card-content {
-    width: auto;
-    padding: 0 0.5cm;
-  }
-}
-
-@media (max-width: 790px) {
+@media screen and (max-width: 790px) {
   .header-container {
     height: 13cm;
     overflow: hidden;
@@ -80,9 +66,9 @@
   }
 }
 
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .card-image-container {
-    height: 7cm;
+    height: 9cm;
   }
 
   .nav-footer {
