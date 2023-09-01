@@ -26,7 +26,7 @@ O projeto Sunnyside Agency é uma página web que apresenta as habilidades e ser
 
 ## Recursos
 
-- O projeto é baseado em HTML5 e CSS3.
+- O projeto é feito em HTML5 e CSS3.
 - O design é responsivo, adaptando-se a diferentes tamanhos de tela.
 - As imagens são otimizadas para carregamento rápido.
 - As seções estão organizadas de forma lógica e bem estruturada.
