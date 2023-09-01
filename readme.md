@@ -1,6 +1,6 @@
 # Projeto Sunnyside Agency
 
-Este é um projeto de página web fictícia para a Sunnyside Agency, uma agência criativa de serviço completo. O projeto é baseado em HTML e CSS, e visa demonstrar o layout e o design responsivo da página.
+Este é um projeto de página web fictícia para a Sunnyside Agency, uma agência criativa de serviço completo. O projeto é feito em HTML e CSS, e visa demonstrar o layout e o design responsivo da página.
 
 ## Conteúdo
 
