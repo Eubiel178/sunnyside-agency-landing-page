@@ -19,6 +19,8 @@
       type="image/x-icon"
     />
 
+    <script src="./js/script.js" defer></script>
+
     <title>Sunnyside agency</title>
   </head>
 
@@ -26,7 +28,7 @@
     <header class="header-container">
       <picture>
         <source
-          media="(min-width:375px)"
+          media="(min-width:480px)"
           srcset="./images/desktop/image-header.jpg"
         />
 
@@ -45,16 +47,26 @@
         />
       </figure>
 
-      <nav class="nav-container">
+      <nav id="nav-container" class="nav-container">
         <p class="company-name">
           <strong>sunnyside</strong>
         </p>
 
-        <ul class="nav-bar">
+        <button
+          id="burger-menu"
+          class="burger-menu"
+          onclick="handleBurgerMenu()"
+        >
+          <span class="bar-burguer"></span>
+          <span class="bar-burguer"></span>
+          <span class="bar-burguer"></span>
+        </button>
+
+        <ul id="nav-list" class="nav-list">
           <li class="nav-item"><a href="#"> About </a></li>
           <li class="nav-item"><a href="#">Services</a></li>
           <li class="nav-item"><a href="#">Projects</a></li>
-          <li class="nav-item">
+          <li class="nav-item nav-item-contact">
             <a class="nav-link" href="#">Contact</a>
           </li>
         </ul>

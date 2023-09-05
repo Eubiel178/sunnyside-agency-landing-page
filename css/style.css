@@ -34,10 +34,10 @@ a {
   padding: 0.5cm;
 }
 
-.nav-bar {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+.nav-list {
+  display: flex;
   align-items: center;
+  gap: 0.5cm;
   font-size: 1em;
 }
 
@@ -46,7 +46,7 @@ a {
   font-weight: 900;
 }
 
-.nav-item:last-child {
+.nav-item-contact {
   border-radius: 1cm;
   padding: 0.2cm 0.4cm;
   background-color: #fff;
@@ -288,4 +288,18 @@ a {
   display: grid;
   grid-template-columns: repeat(4, auto);
   gap: 0.8cm;
+}
+
+@media screen and (max-width: 1020px) {
+  .feedback-list {
+    grid-template-columns: repeat(3, auto);
+    padding: 2cm 0.5cm 0.5cm;
+  }
+}
+
+@media screen and (max-width: 870px) {
+  .card-content {
+    width: auto;
+    padding: 0 0.5cm;
+  }
 }
