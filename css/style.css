@@ -83,7 +83,8 @@ a {
 
 .card-flex {
   display: flex;
-  place-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .card-graphic-design,
