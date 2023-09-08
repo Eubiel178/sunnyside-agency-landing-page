@@ -78,22 +78,26 @@ a {
 
 .card {
   position: relative;
-  height: 12cm;
+  height: 15cm;
 }
 
 .card-flex {
-  display: grid;
+  display: flex;
   place-items: center;
 }
 
 .card-graphic-design,
 .card-photography {
   position: absolute;
-  bottom: 0cm;
+  bottom: 1cm;
   left: 50%;
   text-align: center;
   transform: translate(-50%, 0);
   width: 9.7cm;
+}
+
+.card-photography {
+  bottom: 1.8cm;
 }
 
 .card-image-container img {
@@ -200,10 +204,12 @@ a {
 }
 
 .title-feedback-container {
+  text-align: center;
   font-family: "Fraunces", serif;
   letter-spacing: 5px;
   color: hsl(210, 4%, 67%);
   font-weight: 900;
+  padding: 0 10px;
 }
 
 .feedback-list {

@@ -1,6 +1,6 @@
 @media (max-width: 790px) {
   .header-container {
-    height: 11cm;
+    height: 15cm;
     overflow: hidden;
     font-size: 10px;
   }
@@ -22,6 +22,10 @@
   .primary-card-container {
     display: flex;
     flex-direction: column-reverse;
+  }
+
+  .card-flex {
+    height: 13cm;
   }
 
   .card-content {
@@ -147,7 +151,7 @@
   }
 
   .card-image-container {
-    height: 9cm;
+    height: 100%;
   }
 
   .nav-footer {
